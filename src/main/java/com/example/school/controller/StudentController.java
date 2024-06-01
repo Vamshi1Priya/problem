@@ -14,6 +14,7 @@ public class StudentController {
 @GetMapping("/students")
 public ArrayList<Student> getStudents() {
     return studentService.getStudents();
+    
     }
 
     @GetMapping("/students/{studentId}")
